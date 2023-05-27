@@ -4,7 +4,7 @@ O objetivo deste projeto é de que os alunos aprendam mais sobre projetos lógic
 Acesse os arquivos deste projeto no diretório ["pset1"](https://github.com/davicarretta/uvv_bd1_cc1mb/tree/main/pset1) <br>
 Entenda mais sobre os arquivos presentes neste repositório abaixo:
 ### [cc1mb_202305886_postgresql.architect](https://github.com/davicarretta/uvv_bd1_cc1mb/blob/main/pset1/cc1mb_202305886_postgresql.architect)
-Este arquivo contém os códigos que geram o diagrama relacional no SQL Power Architect, que contém os relacionamentos entre as tabelas, colunas, comentários, e outros dados.
+Este arquivo contém os códigos que geram o diagrama relacional no SQL Power Architect, que apresentam os relacionamentos entre as tabelas, colunas, comentários, e outros dados.
 ### [cc1mb_202305886_postgresql.sql](https://github.com/davicarretta/uvv_bd1_cc1mb/blob/main/pset1/cc1mb_202305886_postgresql.sql)
 Este arquivo contém o script global (código em SQL) que cria usuário, banco de dados, schema, tabelas, colunas, comentários e restrições de checagem para esse projeto, com comentários de cada ação documentados dentro do código.
 ### [cc1mb_202305886_postgresql_architect.pdf](https://github.com/davicarretta/uvv_bd1_cc1mb/blob/main/pset1/cc1mb_202305886_postgresql_architect.pdf)
