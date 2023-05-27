@@ -14,7 +14,7 @@
    <remarks>Tabela dos clientes cadastrados nas Lojas UVV.</remarks>
    <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
     <column id="COL2" populated="true" UUID="914a65ea-f20a-455b-9767-e84b38904695" autoIncrement="false" autoIncrementSequenceName="clientes_cliente_id_seq" defaultValue="" name="cliente_id" nullable="0" physicalName="cliente_id" precision="38" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada cliente cadastrado.</remarks>
+     <remarks>IDs de cada cliente cadastrado.</remarks>
     </column>
     <column id="COL3" populated="true" UUID="f0b64407-948e-49be-8c33-eec033186355" autoIncrement="false" autoIncrementSequenceName="clientes_email_seq" defaultValue="" name="email" nullable="0" physicalName="email" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Email de cada cliente cadastrado.</remarks>
@@ -46,19 +46,19 @@
    <remarks>Tabela dos pedidos cadastrados nas Lojas UVV.</remarks>
    <folder id="FOLTAB101" populated="true" name="Columns" physicalName="Columns" type="1">
     <column id="COL11" populated="true" UUID="c21fc36c-b8a5-419b-ac0d-9219b17cc6aa" autoIncrement="false" autoIncrementSequenceName="pedidos_pedido_id_seq" defaultValue="" name="pedido_id" nullable="0" physicalName="pedido_id" precision="38" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada pedido cadastrado.</remarks>
+     <remarks>IDs de cada pedido cadastrado.</remarks>
     </column>
     <column id="COL12" populated="true" UUID="87c19424-90b6-4a0a-b88f-441ffe9fc914" autoIncrement="false" autoIncrementSequenceName="pedidos_data_hora_seq" defaultValue="" name="data_hora" nullable="0" physicalName="data_hora" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="93" userDefinedTypeUUID="6497d8de-0e00-40d6-a42e-e2adca83be64" >
      <remarks>Data e hora de cada pedido cadastrado.</remarks>
     </column>
     <column id="COL13" populated="true" UUID="f9479149-7249-468f-b585-996cce6e6a86" autoIncrement="false" autoIncrementSequenceName="pedidos_cliente_id_seq" defaultValue="" name="cliente_id" nullable="0" physicalName="cliente_id" precision="38" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada cliente cadastrado.</remarks>
+     <remarks>IDs de cada cliente cadastrado.</remarks>
     </column>
     <column id="COL14" populated="true" UUID="31fd5392-f040-4cb6-8c8f-e84725baf39e" autoIncrement="false" autoIncrementSequenceName="pedidos_status_seq" defaultValue="" name="status" nullable="0" physicalName="status" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Status de cada pedido cadastrado.</remarks>
     </column>
     <column id="COL15" populated="true" UUID="67b766fc-3f67-49db-a2b3-5547f63c5fea" autoIncrement="false" autoIncrementSequenceName="pedidos_loja_id_seq" defaultValue="" name="loja_id" nullable="0" physicalName="loja_id" precision="38" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada loja cadastrada.</remarks>
+     <remarks>IDs de cada loja cadastrada.</remarks>
     </column>
     </folder>
     <folder id="FOLTAB103" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
@@ -75,7 +75,7 @@
    <remarks>Tabela dos produtos cadastrados nas Lojas UVV.</remarks>
    <folder id="FOLTAB181" populated="true" name="Columns" physicalName="Columns" type="1">
     <column id="COL19" populated="true" UUID="6ee2832c-4d08-4298-b70e-48b7f0144790" autoIncrement="false" autoIncrementSequenceName="produtos_produto_id_seq" defaultValue="" name="produto_id" nullable="0" physicalName="produto_id" precision="38" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada produto cadastrado.</remarks>
+     <remarks>IDs de cada produto cadastrado.</remarks>
     </column>
     <column id="COL20" populated="true" UUID="8501ea09-7da6-42d7-a67d-bcd0a568d517" autoIncrement="false" autoIncrementSequenceName="produtos_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Nome de cada produto cadastrado.</remarks>
@@ -116,10 +116,10 @@
    <remarks></remarks>
    <folder id="FOLTAB301" populated="true" name="Columns" physicalName="Columns" type="1">
     <column id="COL31" populated="true" UUID="7acb6fda-3ec7-4644-98db-ebd7d68cc592" autoIncrement="false" autoIncrementSequenceName="pedidos_itens_pedido_id_seq" defaultValue="" name="pedido_id" nullable="0" physicalName="pedido_id" precision="38" primaryKeySeq="0" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada pedido cadastrado.</remarks>
+     <remarks>IDs de cada pedido cadastrado.</remarks>
     </column>
     <column id="COL32" populated="true" UUID="00ced752-fd46-4e3b-831a-1e226ef29096" autoIncrement="false" autoIncrementSequenceName="pedidos_itens_produto_id_seq" defaultValue="" name="produto_id" nullable="0" physicalName="produto_id" precision="38" primaryKeySeq="1" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada produto cadastrado.</remarks>
+     <remarks>IDs de cada produto cadastrado.</remarks>
     </column>
     <column id="COL33" populated="true" UUID="171e6e6d-81e1-4c8f-854d-8881f1bae06e" autoIncrement="false" autoIncrementSequenceName="pedidos_itens_numero_da_linha_seq" defaultValue="" name="numero_da_linha" nullable="0" physicalName="numero_da_linha" precision="38" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Número da linha de cada pedido de itens cadastrado.</remarks>
@@ -131,7 +131,7 @@
      <remarks>Quantidade de pedidos de cada item cadastrado.</remarks>
     </column>
     <column id="COL36" populated="true" UUID="87a9c6a0-a201-465f-9cdc-ecea80bb7818" autoIncrement="false" autoIncrementSequenceName="pedidos_itens_envio_id_seq" defaultValue="" name="envio_id" nullable="1" physicalName="envio_id" precision="38" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada envio cadastrado.</remarks>
+     <remarks>IDs de cada envio cadastrado.</remarks>
     </column>
     </folder>
     <folder id="FOLTAB303" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
@@ -149,13 +149,13 @@
    <remarks>Tabela dos estoques cadastrados nas Lojas UVV.</remarks>
    <folder id="FOLTAB401" populated="true" name="Columns" physicalName="Columns" type="1">
     <column id="COL41" populated="true" UUID="1a60295d-6f7e-4813-a776-0f4bff3b9003" autoIncrement="false" autoIncrementSequenceName="estoques_estoque_id_seq" defaultValue="" name="estoque_id" nullable="0" physicalName="estoque_id" precision="38" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks></remarks>
+     <remarks>IDs de cada estoque cadastrado.</remarks>
     </column>
     <column id="COL42" populated="true" UUID="19bbbcbe-857b-4734-9371-42a60a32ce7d" autoIncrement="false" autoIncrementSequenceName="estoques_loja_id_seq" defaultValue="" name="loja_id" nullable="0" physicalName="loja_id" precision="38" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada loja cadastrada.</remarks>
+     <remarks>IDs de cada loja cadastrada.</remarks>
     </column>
     <column id="COL43" populated="true" UUID="5806390e-7988-4589-8ad6-1ec338550d6e" autoIncrement="false" autoIncrementSequenceName="estoques_produto_id_seq" defaultValue="" name="produto_id" nullable="0" physicalName="produto_id" precision="38" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada produto cadastrado.</remarks>
+     <remarks>IDs de cada produto cadastrado.</remarks>
     </column>
     <column id="COL44" populated="true" UUID="0170283a-8218-4867-9a61-fe38874f0115" autoIncrement="false" autoIncrementSequenceName="estoques_quantidade_seq" defaultValue="" name="quantidade" nullable="0" physicalName="quantidade" precision="38" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
      <remarks>Quantidade de estoque de cada produto em cada loja cadastrada.</remarks>
@@ -175,13 +175,13 @@
    <remarks>Tabela dos envios cadastrados nas Lojas UVV.</remarks>
    <folder id="FOLTAB471" populated="true" name="Columns" physicalName="Columns" type="1">
     <column id="COL48" populated="true" UUID="693c66fd-f46b-4aff-95d9-d0cfdc7aebb7" autoIncrement="false" autoIncrementSequenceName="envios_envio_id_seq" defaultValue="" name="envio_id" nullable="0" physicalName="envio_id" precision="38" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada envio cadastrado.</remarks>
+     <remarks>IDs de cada envio cadastrado.</remarks>
     </column>
     <column id="COL49" populated="true" UUID="a3ec1edf-1867-445c-b490-e7463b8307df" autoIncrement="false" autoIncrementSequenceName="envios_loja_id_seq" defaultValue="" name="loja_id" nullable="0" physicalName="loja_id" precision="38" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada loja cadastrada.</remarks>
+     <remarks>IDs de cada loja cadastrada.</remarks>
     </column>
     <column id="COL50" populated="true" UUID="3b1b43d8-e172-4394-a1ab-8e70e91a89be" autoIncrement="false" autoIncrementSequenceName="envios_cliente_id_seq" defaultValue="" name="cliente_id" nullable="0" physicalName="cliente_id" precision="38" referenceCount="2" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada cliente cadastrado.</remarks>
+     <remarks>IDs de cada cliente cadastrado.</remarks>
     </column>
     <column id="COL51" populated="true" UUID="5c898def-328e-41d3-94c4-9585de3cf43c" autoIncrement="false" autoIncrementSequenceName="envios_endereco_entrega_seq" defaultValue="" name="endereco_entrega" nullable="0" physicalName="endereco_entrega" precision="512" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Endereço de entrega de cada envio cadastrado.</remarks>
@@ -204,7 +204,7 @@
    <remarks>Tabela das lojas cadastradas nas Lojas UVV.</remarks>
    <folder id="FOLTAB551" populated="true" name="Columns" physicalName="Columns" type="1">
     <column id="COL56" populated="true" UUID="0ff0d398-1b41-4c65-b38b-b616dfec8982" autoIncrement="false" autoIncrementSequenceName="lojas_loja_id_seq" defaultValue="" name="loja_id" nullable="0" physicalName="loja_id" precision="38" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="2" userDefinedTypeUUID="115245ce-612c-4d6a-b559-6dd903dd959a" >
-     <remarks>ID&apos;s de cada loja cadastrada.</remarks>
+     <remarks>IDs de cada loja cadastrada.</remarks>
     </column>
     <column id="COL57" populated="true" UUID="94dcd38d-6f4d-479b-ac0c-c8b9cd3ae76f" autoIncrement="false" autoIncrementSequenceName="lojas_nome_seq" defaultValue="" name="nome" nullable="0" physicalName="nome" precision="255" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks>Nome de cada loja cadastrada.</remarks>
@@ -280,7 +280,7 @@
  <ddl-generator type="ca.sqlpower.architect.ddl.PostgresDDLGenerator" allow-connection="false" target-schema="lojas"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
- <play-pen zoom="0.5946035575013602" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+ <play-pen zoom="0.5946035575013602" viewportX="0" viewportY="186" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
   <table-pane table-ref="TAB1" x="20" y="20" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB10" x="696" y="68" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB18" x="800" y="375" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
