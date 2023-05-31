@@ -1,7 +1,7 @@
-/*Primeira parte do PSET
-Deleção de banco de dados e usuário
-Criação do banco de dados e usuário
-Criação e utilização do Schema*/
+/*Primeira parte do PSET.
+Deleção de banco de dados e usuário.
+Criação do banco de dados e usuário.
+Criação e utilização do Schema.*/
 
 --Excluir banco de dados caso já exista.
 DROP DATABASE IF EXISTS uvv;
@@ -37,9 +37,10 @@ SET search_path TO lojas, davicarretta, public;
 ALTER USER davicarretta 
 SET search_path TO lojas, davicarretta, public;
 
-/*Criação das tabelas e colunas
-Adicionar os comentários
-Adicionar as check constraints*/
+/*Segunda parte do PSET.
+Criação das tabelas e colunas.
+Adicionar os comentários.
+Adicionar as check constraints.*/
 
 --Criar tabela lojas.
 CREATE TABLE lojas.lojas (
@@ -300,7 +301,8 @@ ALTER TABLE    pedidos_itens
 ADD CONSTRAINT cc_pedidos_itens_envio_id
     CHECK (envio_id > 0);
 
-/*Criação dos relacionamentos (Foreign Keys*/
+/*Terceira e última parte do PSET.
+Criação dos relacionamentos (Foreign Keys).*/
 
 --Adicionar a FK de lojas e envios.
 ALTER TABLE lojas.envios ADD CONSTRAINT fk_lojas_envios
